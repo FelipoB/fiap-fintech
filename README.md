@@ -167,14 +167,14 @@ Os ícones foram importados via CDN e utilizados com classes do Bootstrap Icons,
 
 Este projeto foi desenvolvido para fins acadêmicos.
 
-© 2025 Felipo Blanc - RM 567636 - Todos os direitos reservados.
+© 2025 Felipo Blanc - RM 567636 - Turma: 1TDSOT - Análise e Desenvolvimento de Sistemas
+Graduação - Todos os direitos reservados.
 
 ---
 
 ## Agradecimentos
 
 - FIAP - Pela oportunidade de aprendizado
-- Bootstrap Team - Pelo framework incrível
 - Professores - Pelo suporte e orientação
 
 ---
