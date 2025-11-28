@@ -1,0 +1,101 @@
+/* Fonte principal */
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+}
+
+/* Cores customizadas */
+:root {
+    --fiap-pink: #FF1866;
+    --fiap-pink-hover: #e6005c;
+    --fiap-dark: #000000;
+    --fiap-gray: #999999;
+}
+
+/*COMPONENTES CUSTOMIZADOS */
+/* Ícone de perfil */
+.profile-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Cards do menu principal */
+.menu-card {
+    background-color: var(--fiap-dark) !important; /* MOtivo do importan - cards sumindo*/
+    border: 1px solid #222;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    color: #ccc;
+}
+
+.menu-card:hover {
+    background-color: #111 !important; /* Motivo do important hover não aparecendo */
+    border-color: var(--fiap-pink);
+    transform: translateY(-5px);
+    color: white;
+}
+
+.menu-card:focus {
+    outline: 2px solid var(--fiap-pink);
+    outline-offset: 2px;
+}
+
+/* Botão de extrato */
+.statement-btn {
+    background-color: var(--fiap-pink) !important; /* Motivo do important - botão sumindo */
+    border: none !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.statement-btn:hover {
+    background-color: var(--fiap-pink-hover) !important; /* Motivo do important hover não aparecendo */
+    transform: translateY(-2px);
+}
+
+.statement-btn:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 24, 102, 0.5) !important;
+}
+
+/* Cards do menu inferior */
+.bottom-card {
+    background-color: transparent !important; /* Motivo do important - cards sumindo*/
+    border: 1px solid #333;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    color: #ccc;
+}
+
+.bottom-card:hover {
+    background-color: #111 !important; /* Motivo do important hover não aparecendo */
+    border-color: var(--fiap-pink);
+    transform: translateY(-5px);
+    color: white;
+}
+
+.bottom-card:focus {
+    outline: 2px solid var(--fiap-pink);
+    outline-offset: 2px;
+}
+
+/* Ícone do menu inferior */
+.bottom-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Botão de menu hamburguer */
+.menu-btn {
+    text-decoration: none; /* Motivo do important - sumindo o estilo */
+    transition: opacity 0.3s ease;
+}
+
+.menu-btn:hover {
+    opacity: 0.7;
+}
