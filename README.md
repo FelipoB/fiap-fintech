@@ -85,6 +85,8 @@ fiap-fintech/
 ```
 
 ---
+## Explicação pasta PDF 
+O documento Referência - Figma - Projeto Fintech - Rm567636 foi realizado na Fase 2 - Cap 8 - Quem vê interface, vê coração. Com isso a tela foi criada com base neste projeto da fase 2, sendo desenvolvido na fase 4. 
 
 ## Como Executar o Projeto
 
