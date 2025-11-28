@@ -129,6 +129,7 @@ O projeto foi desenvolvido com abordagem **mobile-first** e é totalmente respon
 - Atributos de acessibilidade (`aria-label`)
 - Estrutura hierárquica de headings
 
+
 ---
 
 ## Boas Práticas Implementadas
@@ -144,7 +145,11 @@ O projeto foi desenvolvido com abordagem **mobile-first** e é totalmente respon
 
 ## Problemas Conhecidos
 
-- Nenhum problema conhecido até o momento
+### Uso de `!important` no CSS
+O `!important` foi utilizado estrategicamente para 
+sobrescrever estilos padrão do Bootstrap apenas quando 
+necessário, mantendo a especificidade do CSS organizada. 
+Todos os usos estão comentados no código.
 
 ---
 
