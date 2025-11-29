@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Projeto desenvolvido para a disciplina de **Front-end Web Development** da FIAP, Fase 4. Trata-se de uma interface web responsiva para um aplicativo de serviços bancários digitais (FinTech), com foco em experiência do usuário e design moderno.
+Projeto desenvolvido para a disciplina de **Front-end Web Development** da FIAP, Fase 4. Trata-se de uma interface web responsiva para um sistema de serviços bancários digitais (FinTech), com foco em experiência do usuário e design moderno.
 
 ---
 
@@ -155,9 +155,6 @@ Todos os usos estão comentados no código.
 
 ## Observações Técnicas
 
-### Uso de `!important` no CSS
-O `!important` foi utilizado estrategicamente para sobrescrever estilos padrão do Bootstrap apenas quando necessário, mantendo a especificidade do CSS organizada. Todos os usos estão comentados no código.
-
 ### Bootstrap Icons
 Os ícones foram importados via CDN e utilizados com classes do Bootstrap Icons, garantindo consistência visual e facilidade de manutenção.
 
@@ -167,8 +164,7 @@ Os ícones foram importados via CDN e utilizados com classes do Bootstrap Icons,
 
 Este projeto foi desenvolvido para fins acadêmicos.
 
-© 2025 Felipo Blanc - RM 567636 - Turma: 1TDSOT - Análise e Desenvolvimento de Sistemas
-Graduação - Todos os direitos reservados.
+© 2025 Felipo Blanc - RM 567636 - Todos os direitos reservados.
 
 ---
 
